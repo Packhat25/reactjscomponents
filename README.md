@@ -1,7 +1,7 @@
-#for task A
+# For task A#
 inside the folder react/nextjs-TASK A( i might have made a mistake naming the folder and created a folder named react and another folder inside named nextjs)
 
-#for task B
+# For task B
 
 This is a repository for task B. This shows a welcome card that changes when you input  your name and a counter
 my components for task b
