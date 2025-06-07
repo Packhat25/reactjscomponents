@@ -5,6 +5,7 @@ import InfoForm from './components/infoForm';
 import React, { useState } from 'react';
 
 function App() {
+  /* Below are eventHandlers for the textbox to change the card text */
   const [inputText,setInputText]= useState('');
   const [tempText, setTempText] = useState('');
 const handleChange = (e) => {
@@ -24,13 +25,16 @@ const handleChange = (e) => {
   return (
     <div className="App">
       <div className="mainContainer">   
+        {/* Calls the WelcomeCard Function inside the welcomeCard jsx file */}
         <WelcomeCard Name={inputText}/>
+        {/* Calls the Counter Function inside the counter jsx file */}
         <Counter/>
           <p>Name: <input type="text"
           value={tempText}
           onChange={handleChange}
           onBlur={handleBlur}
           onKeyDown={handleKeyDown}></input></p>
+          {/* Calls the Infoform Function inside the infoForm jsx file */}
           <InfoForm/>
       </div>
     </div>
