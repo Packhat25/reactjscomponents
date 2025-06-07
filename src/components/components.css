@@ -1,0 +1,36 @@
+
+.counterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+  width:20%;
+  background-color:  rgba(84, 57, 128, 0.733);
+  border-radius: 20px;
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+.btnContainer {
+
+ display:flex;
+ align-items:center;
+ gap: 10px;
+ justify-content: space-between;
+
+}
+.welcomeCard {
+  width: 35%;
+  height: 30%;
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  color: black;
+  text-align: center;
+}
