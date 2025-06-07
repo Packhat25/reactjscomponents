@@ -1,1 +1,1 @@
-This is a combination of Task A and B in a single file, I tried to implement all what is asked in part A and put it in part B
+This is a repository for task B. This shows a welcome card that changes when you input  your name and a counter
