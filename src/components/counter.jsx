@@ -1,5 +1,4 @@
 import './components.css';
-
 import React, { useState } from 'react';
 
 function Counter(){
@@ -10,11 +9,11 @@ function Counter(){
     };
     return(
     <div className= "counterContainer">
-            <h1>Card Counter</h1>
+            <h1>A counter of some sorts</h1>
             <h3>Count: {count}</h3>
         <div className="btnContainer">
-        <button onClick={decrement}class="ctrButton">Decrement</button>
-        <button onClick={increment} class="ctrButton">Increment</button>
+        <button onClick={decrement}class="ctrButton">-</button>
+        <button onClick={increment} class="ctrButton">+</button>
         </div>
     </div>
     )

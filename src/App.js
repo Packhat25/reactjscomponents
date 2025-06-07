@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from "./components/counter";
 import WelcomeCard from "./components/welcomeCard";
+import InfoForm from './components/infoForm';
 import React, { useState } from 'react';
 
 function App() {
@@ -30,7 +31,7 @@ const handleChange = (e) => {
           onChange={handleChange}
           onBlur={handleBlur}
           onKeyDown={handleKeyDown}></input></p>
-          <p>Name: {inputText} </p>
+          <InfoForm/>
       </div>
     </div>
   );
